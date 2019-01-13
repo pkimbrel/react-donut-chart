@@ -13,6 +13,7 @@ render(<div>
        <h2>Things I would never do:</h2>
        <DonutChart
        data= { mock }
+       enableHover={true}
        onMouseEnter = {
            (item) => {
                console.log(`mousing over: ${item.label}`);
